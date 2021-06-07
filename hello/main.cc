@@ -1,5 +1,7 @@
 #include <iostream>
+#include "hello.hh"
 
 int main() {
-	std::cout << "Hello bazel" << std::endl;
+	Hello hello;
+	hello.sayHi();
 }
